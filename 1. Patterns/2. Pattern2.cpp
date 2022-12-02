@@ -41,9 +41,9 @@
 //     for n=4;
 
 //       *
-//        
+//
 //         *
-//          
+//
 //     */
 
 //    int n;
@@ -94,8 +94,6 @@
 //     }
 //     return 0;
 // }
-
-
 
 // #include <iostream>
 // using namespace std;
@@ -161,7 +159,6 @@
 //     return 0;
 // }
 
-
 // #include <iostream>
 // using namespace std;
 
@@ -179,15 +176,15 @@
 //     int n;
 //     cin >> n;
 //     int i = 1;
-//     int count;
+//     int k;
 //     while (i <= n)
 //     {
 //         int j = 1;
-//         count=i;
+//         k=i;
 //         while (j <= i)
 //         {
-//             cout <<count<< " ";
-//             count++;
+//             cout <<k<< " ";
+//             k++;
 //             j++;
 //         }
 //         cout << endl;
@@ -198,31 +195,30 @@
 
 // Approach 2 for the above pattern
 
-
 #include <iostream>
 using namespace std;
 
 int main()
 {
     /*
-    for n=4;
+    // for n=4;
 
-      1
-      2 3
-      3 4 5
-      4 5 6 7
-    */
-  
+    //   1
+    //   2 3
+    //   3 4 5
+    //   4 5 6 7
+    // */
+
     int n;
     cin >> n;
     int i = 1;
-    while(i <= n)
+    while (i <= n)
     {
         int j = 1;
         while (j <= i)
         {
-             j=i;
-            cout <<j<< " ";
+            j = i;
+            cout << j << " ";
             j++;
         }
         cout << endl;
