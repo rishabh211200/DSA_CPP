@@ -114,7 +114,9 @@ int main()
 }
 */
 
-/********************Find Output good question***************888*/
+//Parche bhikhrane wli strategy aur redbull khali can*********************************************************************************///////////////////////// 
+
+/********************Find Output good question****************/
 #include<iostream>
 using namespace std;
 
