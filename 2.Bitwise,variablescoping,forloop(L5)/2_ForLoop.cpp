@@ -30,29 +30,50 @@
 
   ///////////////////////Print 1 to 5
 
-  
+
+// #include<iostream>
+// using namespace std;
+
+// int main()
+// {
+//     //Approach 1
+//     // int n = 5;
+//     // for(int i = 1; i<=n;i++)
+//     // {
+//     //     cout<<i<<endl;
+//     // }
+//     /////////////////or
+//     //Approach 2
+//     int n = 5;
+//     int i = 1;
+//     for(;;){
+//         if(i<=n){
+//         cout<<i<<endl;
+//         }
+//         else
+//         break;
+//         i++;
+//     }
+//     return 0;
+// }
+
+
+/////Fibonacci series 10 iteration
 #include<iostream>
 using namespace std;
 
 int main()
 {
-    //Approach 1
-    // int n = 5;
-    // for(int i = 1; i<=n;i++)
-    // {
-    //     cout<<i<<endl;
-    // }
-    /////////////////or
-    //Approach 2
-    int n = 5;
-    int i = 1;
-    for(;;){
-        if(i<=n){
-        cout<<i<<endl;
-        }
-        else
-        break;
-        i++;
+    int n = 10;
+    int a = 0;
+    int b = 1;
+    cout<<a<<" "<<b<<" ";
+    for(int i = 1;i<=n-2;i++){    // agar hamein exact 10 iteration chaiye toh hamne n-2 use kiya kuki do hum explicitly print krwa chuke hai
+        int sum = a+b;
+        cout<<sum<<" ";
+        a=b;
+        b=sum;
     }
+    
     return 0;
 }
