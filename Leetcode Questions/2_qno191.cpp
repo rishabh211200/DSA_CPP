@@ -1,6 +1,6 @@
 /***********************191. Number of 1 Bits*************************/
 /**************************Hamming Weight*****************************/
-/*
+/******
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -14,4 +14,4 @@ public:
         return count;
     }
 };
-*/
+*****/
