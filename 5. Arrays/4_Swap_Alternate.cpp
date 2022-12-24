@@ -31,7 +31,7 @@ int main()
 
     cout << "Enter the size of array";
     cin >> n;
-    int arr[n];
+    int arr[100];
     cout << "Enter the array elements";
     for (int i = 0; i < n; i++)
     {
