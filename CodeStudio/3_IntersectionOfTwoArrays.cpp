@@ -32,7 +32,7 @@
 //     return 0;
 // }
 
-/*****************      Optimised Approach       **********************/
+/*****************      Optimised Approach i.e. 2 pointer approach      **********************/
 #include<iostream>
 #include<limits.h>
 #include<vector>
