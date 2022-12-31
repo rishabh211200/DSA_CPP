@@ -1,3 +1,4 @@
+/******************** Self Approach************************/
 #include <iostream>
 using namespace std;
 int sort(int arr[], int size)
