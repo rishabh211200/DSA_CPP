@@ -1,4 +1,4 @@
-/**********************  Increasing case approach ********************************/
+/**********************  Increasing order case approach ********************************/
 #include <iostream>
 using namespace std;
 
@@ -6,6 +6,7 @@ int binarySearch(int arr[], int size, int key)
 {
     int start = 0;
     int end = size - 1;
+    
     // int mid = (start + end) / 2; // Less optimized approach
     /*     integer ki value 2^31-1 hoti hai toh worst case mein ho skta hai ki start aur end
     *      dono hi 2^31-1 ho, is case mein agar hum pehele wala formule se dono ko plus kregey
