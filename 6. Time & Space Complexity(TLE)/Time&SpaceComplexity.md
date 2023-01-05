@@ -14,5 +14,4 @@ O(n): Linear time complexity. This means that the time it takes for the algorith
 
 O(n^2): Quadratic time complexity. This means that the time it takes for the algorithm to complete increases by the square of the size of the input.
 
-![alt text][def]
-[def]: TLE_Table.jpg
+![alt text](TLE_Table.jpg)
