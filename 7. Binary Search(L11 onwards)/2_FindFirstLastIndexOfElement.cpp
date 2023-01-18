@@ -12,10 +12,9 @@ int firstOcc(int arr[], int n, int key)
         if (key == arr[mid])
         {
             ans = mid;
-            e = mid - 1;
+            e = mid - 1;               // 0,0,1,1,2,2,2,2
         }
-        // yha pr hum chize update krrhe hai isliye nested if else nhi bnaya upr wle k sth
-        if (key > arr[mid])
+        else if (key > arr[mid])
         {
             s = mid + 1;
         }
@@ -38,7 +37,6 @@ int lastOcc(int arr[], int n, int key)
             ans = mid;
             s = mid + 1;
         }
-        // yha pr hum chize update krrhe hai isliye nested if else nhi bnaya upr wle k sth
         else if (key > arr[mid])
         {
             s = mid + 1;
