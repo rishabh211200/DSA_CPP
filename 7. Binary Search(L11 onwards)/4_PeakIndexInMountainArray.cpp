@@ -27,7 +27,7 @@ return ans;
 }
 int main()
 {
-    int arr[]={0,1,2,3,4,5,6,7,8,9,8,7,2};
+    int arr[]={0,1,2,3,4,5,6,7,8,9,8,7,2,1};
     int n = 14;
     cout<<"index of peak is: "<<findPeak(arr, n);
     return 0;
