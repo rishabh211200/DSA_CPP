@@ -2,6 +2,12 @@
 //  return the square root of x rounded down to the nearest integer.
 //  The returned integer should be non-negative as well.
 
+
+
+/********************kuch cases mein dikkat aaskti hai, jaha hum (mid*mid) krrhe hai waha integer overflow ho skta hai 
+ *          that's why hamko "long long int" data type ka use krna chaiye usko prevent krne ke liye******************/
+
+
 #include<iostream>
 using namespace std;
 
