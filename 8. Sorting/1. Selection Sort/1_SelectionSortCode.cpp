@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 void selectionSort(int arr[])
@@ -9,19 +9,18 @@ void selectionSort(int arr[])
         for(int j=i+1;j<n;j++){
             if(arr[j]<arr[minIndex])
                 minIndex=j;
-           
+
         }
         swap(arr[i],arr[minIndex]);
     }
-    
-    
+
 }
 
 int main()
 {
     int arr[10]={22,45,11,3,86};
     int n=5;
-    
+
     selectionSort(arr);
 
     for(int i=0;i<n;i++){
