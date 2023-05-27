@@ -28,6 +28,7 @@ int findTrappedWaterUnit(int arr[], int n)
 
     for(int i = 0; i<n;i++)
     {
+        //Direct Final Sum lengey
         int trapped = std::min(leftBlock[i],rightBlock[i]) - arr[i];
         finalSum+=trapped;
     } 
